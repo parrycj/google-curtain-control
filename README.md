@@ -4,6 +4,10 @@ ESP8266 curtain controller with Google Assistant and Adafruit IO
 The original tutorial for this application using Alexa can be found here:
 * Alexa Curtain Control System - 3d Printable And Low Cost
   * https://www.electromaker.io/project/view/alexa-curtain-control-system-3d-printable-and-low-cost
+* Youtube tutorial - How to build Alexa controlled curtains (Echo, 3D Printable & Adafruit Feather Huzzah!):
+  * https://www.youtube.com/watch?time_continue=31&v=1X6pu14eNrc
+* And the original code:
+  * https://github.com/DIY-Machines/alexa-cutrain-control
 
 In order to convert this to use the Google assistant I used the following tutorial:
 * ESP8266 Voice Control With Google Assistant and Adafruit IO
