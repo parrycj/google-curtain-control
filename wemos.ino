@@ -134,9 +134,9 @@ void stepNow(int totalSteps) {
   int i;
   for (i = 0; i < totalSteps; ++i) {
     digitalWrite(STEP, HIGH);
-    delayMicroseconds(1000);
+    delay(1);
     digitalWrite(STEP, LOW);
-    delayMicroseconds(1000);
+    delay(1);
   }
 }
 
@@ -144,7 +144,7 @@ void stepNow(int totalSteps) {
 
 
 void moveCurtain() {
-  delayMicroseconds(500);
+  delay(5);
   stepNow(STEPS_PER_ROTATION);
 }
 
@@ -164,7 +164,7 @@ void MQTT_connect()
     Serial.println(mqtt.connectErrorString(ret));
     Serial.println("Retrying MQTT connection in 5 seconds...");
     mqtt.disconnect();
-    delay(5000);  // wait 5 seconds
+    delay(5);  // wait 5 seconds
     retries--;
     if (retries == 0)
     {
