@@ -36,3 +36,6 @@ Instead of putting the data as "ON" I use the word "trigger" in my code. This al
 #### 5. Upload to your ESP8266 and try it out! ####
 
 > STEPS_PER_ROTATION on line 27 is defined as 1200, you can increase or decrease this number according to how far you need the motor to turn
+
+
+*Special thank you to https://github.com/DIY-Machines and https://github.com/jzheadley for the help on making this possible!*
