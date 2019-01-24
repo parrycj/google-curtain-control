@@ -35,6 +35,8 @@ Instead of putting the data as "ON" I use the word "trigger" in my code. This al
 
 #### 5. Upload to your ESP8266 and try it out! ####
 
+> **This code assumes that your curtains are closed to start**
+
 > STEPS_PER_ROTATION on line 27 is defined as 1200, you can increase or decrease this number according to how far you need the motor to turn
 
 
